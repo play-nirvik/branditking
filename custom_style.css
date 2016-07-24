@@ -1,0 +1,60 @@
+.bik-side-masthead {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 21%;
+    background: #15191b;
+}
+
+.bik-navigation-wrap {
+    min-height: 250px;
+    background: #15191b;
+}
+
+#headerwrap, #footerwrap {
+    display: none;
+}
+
+#fullPage-nav span, .fullPage-slidesNav span {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #80e435;
+    background: transparent;
+}
+
+#fullPage-nav li .active span, .fullPage-slidesNav .active span {
+    background: #80e435;
+}
+
+#fullPage-nav {
+    margin-top: 0 !important;
+    position: static;
+    top: 0;
+}
+
+.fullPage-tooltip {
+    width: 175px;
+}
+
+.sidebar-none .section-inner {
+    width: 70%;
+    margin-left: 25%;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.section-title, .section-content {
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 10px;
+}
+
+.section-title {
+    color: #80e435;
+    font-weight: 400;
+}
+
+.section-content {
+    color: #FFF;
+}
